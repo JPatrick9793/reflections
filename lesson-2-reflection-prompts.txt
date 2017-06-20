@@ -1,16 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-initializing a repository essentially creates a .git file within a folder (or repository). this is needed to store previous gifs and create commits
-
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-the staging area is a temporary limbo space where files that are about to be committed are placed. this is done with the “git add” command.
-
 How can you use the staging area to make sure you have one commit per logical
 change?
-
-only placing one (or a few similar files) on the staging area allows for more logical commits at a time. this can also be checked using the git diff (without any arguments) to see the difference between the workspace and staging area, and the git diff —-stage to check changes between the staging area and the repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
