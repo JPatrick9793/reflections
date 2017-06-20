@@ -12,3 +12,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	Cloning involves creating a copy of a file/repository locally (whether from a remote source or another local source.
 	Forking involves “cloning” a repo completely on GitHub. in other words, it has no affect on the local system.
 	Branches are used within existing repos.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	One possible benefit would be if a contributor wanted to work on the file without internet access.
